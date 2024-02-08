@@ -36,7 +36,7 @@ const handleFormSubmit = async (e) => {
   e.preventDefault();
   console.log(formData);
   try {
-    const response = await fetch('/submit-billing', {
+    const response = await fetch('https://spice-backend-r5jo.onrender.com/submit-billing', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
