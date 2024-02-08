@@ -80,7 +80,7 @@ const ProductDetails = () => {
     e.preventDefault();
     console.log(formData);
     try {
-      const response = await fetch('/submit-review', {
+      const response = await fetch('https://spice-backend-r5jo.onrender.com/submit-review', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
